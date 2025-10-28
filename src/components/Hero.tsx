@@ -1,3 +1,4 @@
+import React from "react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { ArrowRight } from "lucide-react";
@@ -18,13 +19,17 @@ export function Hero() {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="group">
-                Nossos Produtos
-                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button variant="outline" size="lg">
-                Saiba mais
-              </Button>
+              <a href="/#products">
+                <Button size="lg" className="group">
+                  Nossos Produtos
+                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </a>
+              <a href="/#about">
+                <Button variant="outline" size="lg">
+                  Saiba mais
+                </Button>
+              </a>
             </div>
 
             <div className="grid grid-cols-3 gap-8 pt-8 border-t">

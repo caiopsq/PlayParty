@@ -1,10 +1,13 @@
+import React from "react";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 interface ProductCardProps {
+  id: number,
   name: string;
   description: string;
   image: string;
@@ -13,7 +16,17 @@ interface ProductCardProps {
   price?: string;
 }
 
-export function ProductCard({ name, description, image, category, features, price }: ProductCardProps) {
+export function ProductCard({ id, name, description, image, category, features, price }: ProductCardProps) {
+  const navigate = useNavigate();
+
+  function onSeeDetailsClick(id) {
+    const queryParams = new URLSearchParams({
+      id: id,
+      produto: name
+    }).toString();
+    navigate(`/produtos?${queryParams}`);
+  }
+
   return (
     <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
       <CardHeader>
@@ -49,7 +62,7 @@ export function ProductCard({ name, description, image, category, features, pric
       </CardContent>
       
       <CardFooter>
-        <Button className="w-full group">
+        <Button onClick={() => onSeeDetailsClick(id)} className="w-full group">
           Saiba Mais
           <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
         </Button>

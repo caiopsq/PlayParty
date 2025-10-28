@@ -1,3 +1,4 @@
+import React from "react";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -6,10 +7,10 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", href: "#home" },
-    { name: "Sobre Nós", href: "#about" },
-    { name: "Produtos", href: "#products" },
-    { name: "Contato", href: "#contact" },
+    { name: "Home", href: "/#home" },
+    { name: "Sobre Nós", href: "/#about" },
+    { name: "Produtos", href: "/#products" },
+    { name: "Contato", href: "/#contact" },
   ];
 
   return (
@@ -17,7 +18,7 @@ export function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <h1 className="text-xl font-bold text-primary">PlayParty</h1>
+            <h1 className="text-xl font-bold text-primary">PlayParty </h1>
           </div>
 
           {/* Desktop Navigation */}

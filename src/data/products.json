@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "name": "Freezer Horizontal",
+    "description": "Mantenha suas bebidas sempre geladas enquanto realiza o seu evento.",
+    "image": "src/img/freezerHorizontal.png",
+    "category": "Freezers",
+    "features": [
+      "Mantém produtos refrigerados",
+      "Manutenção em dia",
+      "Garantia de qualidade"
+    ],
+    "price": "",
+    "type": "refrigeracao",
+    "questions" : []
+  },
+  {
+    "id": 2,
+    "name": "Frigobar",
+    "description": "Ideal para eventos pequenos e com a necessidade de manter itens refrigerados.",
+    "image": "src/img/frigobar.png",
+    "category": "Refrigeração",
+    "features": [
+      "Mantém produtos refrigerados",
+      "Manutenção em dia",
+      "Garantia de qualidade"
+    ],
+    "price": "",
+    "type": "refrigeracao",
+    "questions": [
+      {
+        "question": "O que é um frigobar?",
+        "answer": "O frigobar é um pequeno eletrodoméstico, com funcionamento similar ao de uma geladeira, de forma a refrigerar alimentos e bebidas, mas ocupando um espaço bem menor do que um refrigerador tradicional."
+      },
+      {
+        "question": "Para que serve um frigobar?",
+        "answer": "Por seu tamanho reduzido, o frigobar armazena líquidos e alimentos, como compras em pequena escala, além de frutas e doces. No entanto, seu uso mais comum é para refrigeração de sucos, refrigerantes, água e outras bebidas."
+      },
+      {
+        "question": "Qual é a diferença entre um frigobar e uma geladeira?",
+        "answer": "Apesar de terem funções semelhantes e modelos com diferentes capacidades, os frigobares são bem pequenos e compactos, cabendo em diversos lugares, proporcionando um consumo de energia elétrica reduzido. Eles pesam, em média, 25 kg, enquanto geladeiras podem ultrapassar os 200 kg. Assim, caso queira menos custos e mais espaço livre, a melhor opção pode ser um frigobar."
+      },
+      {
+        "question": "Frigobar funciona como um freezer?",
+        "answer": "Funcionando como uma mini geladeira, o frigobar tem sua temperatura ideal por volta dos 15 °C. Já o freezer funciona a temperaturas negativas, entre -25 °C e -18 °C, trabalhando para congelar alimentos, não mantê-los refrigerados. Assim, se você quer apenas ter acesso às bebidas frescas, opte pelo frigobar."
+      },
+      {
+        "question": "Em quais tipos de eventos se usa frigobar?",
+        "answer": "Frigobares são usados em eventos como confraternizações, reuniões, stands, exposições ou em quaisquer outras ocasiões em que se queira refrigerar bebidas, frutas e uma quantidade limitada de alimentos. Um exemplo é em stands, em que uma empresa pode alugar um frigobar para oferecer água fresca a seus clientes."
+      },
+      {
+        "question": "Quanto custa o aluguel de um frigobar?",
+        "answer": "O preço do aluguel de um frigobar varia de acordo com o tempo de uso e modelo. A Magui Locação oferece dois modelos: Frigobar de 120 L e o frigobar retrô, de 60 L, enquanto o aluguel desse eletrodoméstico custa a partir de R$ 90 por dia."
+      },
+      {
+        "question": "Em quais casos compensa alugar um frigobar?",
+        "answer": "Se o seu evento precisa refrigerar bebidas ou alimentos, mas não tem uma geladeira e precisa poupar espaço e orçamento, o frigobar pode ser a melhor alternativa, reduzindo os custos de uma compra. Além disso, ao alugar, você ainda pode escolher o modelo e cores que mais combinam com o seu evento."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Geladeira",
+    "description": "Ideal para eventos médios em que será necessário refrigerar.",
+    "image": "src/img/geladeira.png",
+    "category": "Refrigeração",
+    "features": [
+      "Mantém produtos refrigerados",
+      "Manutenção em dia",
+      "Garantia de qualidade"
+    ],
+    "price": "",
+    "type": "refrigeracao",
+    "questions" : []
+  },
+  {
+    "id": 4,
+    "name": "Toalhas de mesa",
+    "description": "Toalhas de diversas cores para combinar com sua decoração e ambiente.",
+    "image": "src/img/toalhasMesa.png",
+    "category": "Forros de Mesa",
+    "features": [
+      "Cores variadas",
+      "1,50 x 1,50 metros"
+    ],
+    "price": "",
+    "type": "forros",
+    "questions" : []
+  },
+  {
+    "id": 5,
+    "name": "Mesas e Cadeiras",
+    "description": "",
+    "image": "src/img/cadeiras.png",
+    "category": "Mesas e Cadeiras",
+    "features": [
+      "Duráveis e resistentes",
+      "Fáceis de transportar",
+      "Design moderno"
+    ],
+    "price": "",
+    "type": "mesas",
+    "questions" : []
+  },
+  {
+    "id": 5,
+    "name": "Cadeiras",
+    "description": "",
+    "image": "src/img/cadeiras.png",
+    "category": "Cadeiras",
+    "features": [
+      "Duráveis e resistentes",
+      "Fáceis de transportar",
+      "Design moderno"
+    ],
+    "price": "",
+    "type": "mesas",
+    "questions" : []
+  }
+]

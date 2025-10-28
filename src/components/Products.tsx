@@ -1,86 +1,78 @@
+import React from "react";
 import { ProductCard } from "./ProductCard";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 
 export function Products() {
   const products = [
     {
-      name: "Freezer Horizontal",
-      description: "Mantenha suas bebidas sempre geladas enquanto realiza o seu evento.",
-      image: "src/img/freezerHorizontal.png",
-      category: "Freezers",
-      features: [
+      "id": 1,
+      "name": "Freezer Horizontal",
+      "description": "Mantenha suas bebidas sempre geladas enquanto realiza o seu evento.",
+      "image": "src/img/freezerHorizontal.png",
+      "category": "Freezers",
+      "features": [
         "Mantém produtos refrigerados",
         "Manutenção em dia",
         "Garantia de qualidade"
       ],
-      price: "",
-      type: "refrigeracao"
+      "price": "",
+      "type": "refrigeracao"
     },
     {
-      name: "Frigobar",
-      description: "Ideal para eventos pequenos e com a necessidade de manter itens refrigerados.",
-      image: "src/img/frigobar.png",
-      category: "Refrigeração",
-      features: [
+      "id":2,
+      "name": "Frigobar",
+      "description": "Ideal para eventos pequenos e com a necessidade de manter itens refrigerados.",
+      "image": "src/img/frigobar.png",
+      "category": "Refrigeração",
+      "features": [
         "Mantém produtos refrigerados",
         "Manutenção em dia",
         "Garantia de qualidade"
       ],
-      price: "",
-      type: "refrigeracao"
+      "price": "",
+      "type": "refrigeracao"
     },
     {
-      name: "Geladeira",
-      description: "Ideal para eventos médios em que será necessário refrigerar.",
-      image: "src/img/geladeira.png",
-      category: "Refrigeração",
-      features: [
+      "id": 3,
+      "name": "Geladeira",
+      "description": "Ideal para eventos médios em que será necessário refrigerar.",
+      "image": "src/img/geladeira.png",
+      "category": "Refrigeração",
+      "features": [
         "Mantém produtos refrigerados",
         "Manutenção em dia",
         "Garantia de qualidade"
       ],
-      price: "",
-      type: "refrigeracao"
+      "price": "",
+      "type": "refrigeracao"
     },
     {
-      name: "Toalhas de mesa",
-      description: "Toalhas de diversas cores para combinar com sua decoração e ambiente.",
-      image: "src/img/toalhasMesa.png",
-      category: "Forros de Mesa",
-      features: [
+      "id": 4,
+      "name": "Toalhas de mesa",
+      "description": "Toalhas de diversas cores para combinar com sua decoração e ambiente.",
+      "image": "src/img/toalhasMesa.png",
+      "category": "Forros de Mesa",
+      "features": [
         "Cores variadas",
         "1,50 x 1,50 metros"
       ],
-      price: "",
-      type: "forros"
+      "price": "",
+      "type": "forros"
     },
     {
-      name: "Mesas e Cadeiras",
-      description: "",
-      image: "src/img/cadeiras.png",
-      category: "Mesas e Cadeiras",
-      features: [
+      "id": 5,
+      "name": "Mesas e Cadeiras",
+      "description": "",
+      "image": "src/img/cadeiras.png",
+      "category": "Mesas e Cadeiras",
+      "features": [
         "Duráveis e resistentes",
         "Fáceis de transportar",
         "Design moderno"
       ],
-      price: "",
-      type: "mesas"
-    },
-    // {
-    //   name: "AI Assistant API",
-    //   description: "Powerful AI assistant API that can be integrated into any application to provide intelligent automation and support.",
-    //   image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhaSUyMGFzc2lzdGFudHxlbnwxfHx8fDE3NTc4Nzg2NzV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    //   category: "AI/ML",
-    //   features: [
-    //     "Natural language processing",
-    //     "Multi-language support",
-    //     "Custom model training",
-    //     "99.9% API uptime"
-    //   ],
-    //   price: "",
-    //   type: "service"
-    // }
+      "price": "",
+      "type": "mesas"
+    }
   ];
 
   const produtosRefrigeracao = products.filter(p => p.type === "refrigeracao");
