@@ -1,79 +1,10 @@
 import React from "react";
 import { ProductCard } from "./ProductCard";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
+import produtos from "../data/products.json";
 
 export function Products() {
-  const products = [
-    {
-      "id": 1,
-      "name": "Freezer Horizontal",
-      "description": "Mantenha suas bebidas sempre geladas enquanto realiza o seu evento.",
-      "image": "src/img/freezerHorizontal.png",
-      "category": "Freezers",
-      "features": [
-        "Mantém produtos refrigerados",
-        "Manutenção em dia",
-        "Garantia de qualidade"
-      ],
-      "price": "",
-      "type": "refrigeracao"
-    },
-    {
-      "id":2,
-      "name": "Frigobar",
-      "description": "Ideal para eventos pequenos e com a necessidade de manter itens refrigerados.",
-      "image": "src/img/frigobar.png",
-      "category": "Refrigeração",
-      "features": [
-        "Mantém produtos refrigerados",
-        "Manutenção em dia",
-        "Garantia de qualidade"
-      ],
-      "price": "",
-      "type": "refrigeracao"
-    },
-    {
-      "id": 3,
-      "name": "Geladeira",
-      "description": "Ideal para eventos médios em que será necessário refrigerar.",
-      "image": "src/img/geladeira.png",
-      "category": "Refrigeração",
-      "features": [
-        "Mantém produtos refrigerados",
-        "Manutenção em dia",
-        "Garantia de qualidade"
-      ],
-      "price": "",
-      "type": "refrigeracao"
-    },
-    {
-      "id": 4,
-      "name": "Toalhas de mesa",
-      "description": "Toalhas de diversas cores para combinar com sua decoração e ambiente.",
-      "image": "src/img/toalhasMesa.png",
-      "category": "Forros de Mesa",
-      "features": [
-        "Cores variadas",
-        "1,50 x 1,50 metros"
-      ],
-      "price": "",
-      "type": "forros"
-    },
-    {
-      "id": 5,
-      "name": "Mesas e Cadeiras",
-      "description": "",
-      "image": "src/img/cadeiras.png",
-      "category": "Mesas e Cadeiras",
-      "features": [
-        "Duráveis e resistentes",
-        "Fáceis de transportar",
-        "Design moderno"
-      ],
-      "price": "",
-      "type": "mesas"
-    }
-  ];
+  const products = produtos;
 
   const produtosRefrigeracao = products.filter(p => p.type === "refrigeracao");
   const produtosMesa = products.filter(p => p.type === "mesas");
@@ -133,7 +64,7 @@ export function Products() {
             </div>
           </TabsContent>
           
-          <TabsContent value="forros">
+          <TabsContent value="cadeiras">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {prrodutosCadeiras.map((product, index) => (
                 <ProductCard key={index} {...product} />

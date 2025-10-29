@@ -88,9 +88,9 @@
     "questions" : []
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Mesas e Cadeiras",
-    "description": "",
+    "description": "Conjunto de mesas e cadeiras para eventos.",
     "image": "/img/cadeiras.png",
     "category": "Mesas e Cadeiras",
     "features": [
@@ -105,7 +105,7 @@
   {
     "id": 5,
     "name": "Cadeiras",
-    "description": "",
+    "description": "Cadeiras confortáveis e práticas para eventos.",
     "image": "/img/cadeiras.png",
     "category": "Cadeiras",
     "features": [
