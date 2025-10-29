@@ -1,3 +1,4 @@
+import React from "react";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { Input } from "./ui/input";
@@ -70,39 +71,7 @@ export function Contact() {
             </div>
           </div>
 
-          <Card>
-            <CardHeader>
-              <CardTitle>Entre em contato conosco</CardTitle>
-              <CardDescription>
-                Preencha o formulário abaixo e entraremos em contato.
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="grid grid-cols-2 gap-4">
-                <div className="space-y-2">
-                  <Label htmlFor="firstName">Nome</Label>
-                  <Input id="firstName" placeholder="João" />
-                </div>
-                <div className="space-y-2">
-                  <Label htmlFor="lastName">Sobrenome</Label>
-                  <Input id="lastName" placeholder="Silva" />
-                </div>
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="email">Email</Label>
-                <Input id="email" type="email" placeholder="seu@email.com" />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="message">Mensagem</Label>
-                <Textarea 
-                  id="message" 
-                  placeholder="Nos conte o que precisa para o seu evento..."
-                  className="min-h-[120px]"
-                />
-              </div>
-              <Button className="w-full">Enviar Mensagem</Button>
-            </CardContent>
-          </Card>
+          
         </div>
       </div>
     </section>

@@ -18,6 +18,8 @@ interface ProductCardProps {
 
 export function ProductCard({ id, name, description, image, category, features, price }: ProductCardProps) {
   const navigate = useNavigate();
+  // const imageUrl = new URL(`./assets/${image}`, import.meta.url).href;
+
 
   function onSeeDetailsClick(id) {
     const queryParams = new URLSearchParams({

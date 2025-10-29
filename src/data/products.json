@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Freezer Horizontal",
     "description": "Mantenha suas bebidas sempre geladas enquanto realiza o seu evento.",
-    "image": "src/img/freezerHorizontal.png",
+    "image": "/img/freezerHorizontal.png",
     "category": "Freezers",
     "features": [
       "Mantém produtos refrigerados",
@@ -18,7 +18,7 @@
     "id": 2,
     "name": "Frigobar",
     "description": "Ideal para eventos pequenos e com a necessidade de manter itens refrigerados.",
-    "image": "src/img/frigobar.png",
+    "image": "/img/frigobar.png",
     "category": "Refrigeração",
     "features": [
       "Mantém produtos refrigerados",
@@ -62,7 +62,7 @@
     "id": 3,
     "name": "Geladeira",
     "description": "Ideal para eventos médios em que será necessário refrigerar.",
-    "image": "src/img/geladeira.png",
+    "image": "/img/geladeira.png",
     "category": "Refrigeração",
     "features": [
       "Mantém produtos refrigerados",
@@ -77,7 +77,7 @@
     "id": 4,
     "name": "Toalhas de mesa",
     "description": "Toalhas de diversas cores para combinar com sua decoração e ambiente.",
-    "image": "src/img/toalhasMesa.png",
+    "image": "/img/toalhasMesa.png",
     "category": "Forros de Mesa",
     "features": [
       "Cores variadas",
@@ -91,7 +91,7 @@
     "id": 5,
     "name": "Mesas e Cadeiras",
     "description": "",
-    "image": "src/img/cadeiras.png",
+    "image": "/img/cadeiras.png",
     "category": "Mesas e Cadeiras",
     "features": [
       "Duráveis e resistentes",
@@ -106,7 +106,7 @@
     "id": 5,
     "name": "Cadeiras",
     "description": "",
-    "image": "src/img/cadeiras.png",
+    "image": "/img/cadeiras.png",
     "category": "Cadeiras",
     "features": [
       "Duráveis e resistentes",
@@ -114,7 +114,7 @@
       "Design moderno"
     ],
     "price": "",
-    "type": "mesas",
+    "type": "cadeiras",
     "questions" : []
   }
 ]

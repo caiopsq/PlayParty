@@ -78,6 +78,7 @@ export function Products() {
   const produtosRefrigeracao = products.filter(p => p.type === "refrigeracao");
   const produtosMesa = products.filter(p => p.type === "mesas");
   const produtosForros = products.filter(p => p.type === "forros");
+  const prrodutosCadeiras = products.filter(p => p.type === "cadeiras");
 
   return (
     <section id="products" className="py-24">
@@ -92,10 +93,11 @@ export function Products() {
         </div>
 
         <Tabs defaultValue="all" className="w-full">
-          <TabsList className="grid w-full max-w-md mx-auto grid-cols-4 mb-12">
+          <TabsList className="grid w-full max-w-md mx-auto grid-cols-4 mb-16">
             <TabsTrigger value="all">Todos</TabsTrigger>
             <TabsTrigger value="refrigeracao">Refrigeração</TabsTrigger>
             <TabsTrigger value="mesas">Mesas</TabsTrigger>
+            <TabsTrigger value="cadeiras">Cadeiras</TabsTrigger>
             <TabsTrigger value="forros">Toalhas</TabsTrigger>
           </TabsList>
           
@@ -126,6 +128,14 @@ export function Products() {
           <TabsContent value="forros">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {produtosForros.map((product, index) => (
+                <ProductCard key={index} {...product} />
+              ))}
+            </div>
+          </TabsContent>
+          
+          <TabsContent value="forros">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {prrodutosCadeiras.map((product, index) => (
                 <ProductCard key={index} {...product} />
               ))}
             </div>
