@@ -5,7 +5,7 @@ import { About } from "./components/About";
 import { Products } from "./components/Products";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-
+import WhatsappButton from "./components/WhatsappButton";
 export default function App() {
   return (
     <div className="min-h-screen">
@@ -15,6 +15,7 @@ export default function App() {
         <About />
         <Products />
         <Contact />
+        <WhatsappButton />
       </main>
       <Footer />
     </div>

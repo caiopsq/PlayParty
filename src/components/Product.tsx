@@ -4,6 +4,8 @@ import { ProductData } from "../types/Product";
 
 import productsData from "../data/products.json";
 
+import WhatsappButton from "./WhatsappButton";
+
 interface ProductDetailProps {
     id: number;
 }
@@ -55,9 +57,9 @@ const ProductDetails: React.FC<ProductDetailProps> = ({ id }) => {
                     ))}
                 </div>
             </div>
-
+            <WhatsappButton number={String(5561983191996)} item={String(product.name)}/>
         </section>
-    );
+    );  
 }
 
 export default ProductDetails;
