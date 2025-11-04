@@ -59,7 +59,7 @@ const ProductDetails: React.FC<ProductDetailProps> = ({ id }) => {
                     ))}
                 </div>
             </div>
-            <WhatsappButton number="5561992149916" item={JSON.stringify(product.name)}/>
+            <WhatsappButton numero="5561992149916" item={JSON.stringify(product.name)}/>
         </section>
     );  
 }
