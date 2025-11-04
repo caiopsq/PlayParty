@@ -15,7 +15,7 @@ export default function App() {
         <About />
         <Products />
         <Contact />
-        <WhatsappButton />
+        <WhatsappButton numero="5561992149916"/>
       </main>
       <Footer />
     </div>

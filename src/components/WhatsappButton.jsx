@@ -3,9 +3,9 @@ import styles from "./WhatsappButton.module.css";
 
 
 
-function WhatsappButton(numero = "5561992149916", item="alguns itens") {
-    var mensagem = `Olá! Gostaria de um orçamento pe aluguél de ${item}. Poderia me passar mais detalhes?`;
-    var link = `https://wa.me/${JSON.stringify(numero)}?text=${encodeURIComponent(JSON.stringify(mensagem))}`;
+function WhatsappButton(props){//numero = "5561992149916", item="alguns itens") {
+    var mensagem = `Olá! Gostaria de um orçamento para aluguél de ${(props.item)? props.item : "alguns itens"}. Poderia me passar mais detalhes?`;
+    var link = `https://wa.me/${props.numero}?text=${encodeURIComponent(mensagem)}`;
 
     return(
         <>
