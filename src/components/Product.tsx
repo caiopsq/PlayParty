@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from "react";
+import * as React from "react";
+
+import { useState, useEffect } from "react";
 
 import { ProductData } from "../types/Product";
 
@@ -57,7 +59,7 @@ const ProductDetails: React.FC<ProductDetailProps> = ({ id }) => {
                     ))}
                 </div>
             </div>
-            <WhatsappButton number={String(5561983191996)} item={String(product.name)}/>
+            <WhatsappButton number="5561992149916" item={JSON.stringify(product.name)}/>
         </section>
     );  
 }
