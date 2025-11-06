@@ -11,13 +11,14 @@ export function Hero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl text-primary leading-tight">
-                Proporcionamos itens de qualidade para o seu evento
+                Aluguel de Freezers, Frigobares, Geladeiras, Mesas e Cadeiras, Toalhas de Mesa em Brasília
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg">
-                Nós inovamos a forma de alugar produtos para eventos, simplificando tudo para que você tenha mais tempo para aproveitar.
+                A Play Party é referência em locação e aluguel de materiais para festas e eventos corporativos em Brasília, DF e Entorno.
+                Oferecemos freezers, mesas, cadeiras, frigobares, geladeiras e toalhas de mesa com qualidade, higiene e pontualidade na entrega.
               </p>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="/#products">
                 <Button size="lg" className="group">

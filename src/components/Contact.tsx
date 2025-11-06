@@ -11,14 +11,14 @@ export function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "playparty@contato.com",
+      value: "playpartylocacoesdf@gmail.com",
       description: "Nos envie um email a qualquer momento"
     },
     {
       icon: Phone,
       title: "Telefone",
-      value: "+55 (61) 99999-9999",
-      description: "Seg-Sex de 8:00 às 18:00"
+      value: "+55 (61) 99214-9916",
+      description: "Seg-Sab de 8:00 às 18:00"
     },
     {
       icon: MapPin,

@@ -1,13 +1,17 @@
-import { Github, Twitter, Linkedin, Mail } from "lucide-react";
+import { Github, Twitter, Linkedin, Instagram, Mail } from "lucide-react";
+import React from "react";
 
 export function Footer() {
   const footerSections = [
     {
       title: "Produtos",
       links: [
-        { name: "Refrigeração", href: "#products" },
-        { name: "Mesas e Cadeiras", href: "#products" },
-        { name: "Forração de Mesas", href: "#products" },
+        { name: "Freezer Horizontal", href: "#products" },
+        { name: "Frigobar", href: "#products" },
+        { name: "Geladeira", href: "#products" },
+        { name: "Toalhas de mesa", href: "#products" },
+        { name: "Mesas", href: "#products" },
+        { name: "Cadeiras", href: "#products" }
       ]
     },
     {
@@ -15,9 +19,21 @@ export function Footer() {
       links: [
         { name: "Sobre nós", href: "#about" },
         { name: "Entre em contato", href: "#contact" },
-        { name: "Localização", href: "#contact" }
+        { name: "Localização", href: "#contact" },
+        { name: "Produtos", href: "#products" },
+        { name: "Contato", href: "#contact" },
       ]
     },
+    {
+      title: "Áreas de Atendimento",
+      links: [
+        { name: "Asa Norte", href: "#about" },
+        { name: "Asa Sul", href: "#about" },
+        { name: "Sudoeste", href: "#about" },
+        { name: "Lago Norte", href: "#about" },
+        { name: "Noroeste", href: "#about" }
+      ]
+    }
     // {
     //   title: "Support",
     //   links: [
@@ -39,10 +55,8 @@ export function Footer() {
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:hello@techcorp.com", label: "Email" },
+    { icon: Instagram, href: "https://www.instagram.com/playpartylocacoes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", label: "Instagram" },
+    { icon: Mail, href: "mailto:playpartylocacoesdf@gmail.com", label: "Email" },
   ];
 
   return (
@@ -52,7 +66,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <h3 className="text-xl mb-4">PlayParty</h3>
             <p className="text-primary-foreground/80 mb-6 max-w-sm">
-              Fornecendo produtos para que você tenha o melhor no seu evento.
+              O seu <strong>parceiro e fornecedor de confiança</strong>, garantindo os <strong>melhores produtos</strong> para o sucesso do seu evento. 📞 <strong>Fale com a gente</strong>: (61) 99214-9916
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
