@@ -64,7 +64,7 @@ export function Contact() {
               <h4 className="text-primary mb-2">Por que escoher a PLayParty?</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>• 5+ anos de experiência no mercado</li>
-                <li>• 1000+ clientes satisfeitos</li>
+                {/* <li>• 1000+ clientes satisfeitos</li> */}
                 <li>• Orçamentos 24h</li>
                 <li>• Frota de entrega própria</li>
               </ul>
