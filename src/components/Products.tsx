@@ -24,7 +24,7 @@ export function Products() {
         </div>
 
         <Tabs defaultValue="all" className="w-full">
-          <TabsList className="grid w-full max-w-md mx-auto grid-cols-4 mb-16">
+          <TabsList className="!grid grid-cols-5 gap-2 w-full max-w-3xl mx-auto mb-16">
             <TabsTrigger value="all">Todos</TabsTrigger>
             <TabsTrigger value="refrigeracao">Refrigeração</TabsTrigger>
             <TabsTrigger value="mesas">Mesas</TabsTrigger>
