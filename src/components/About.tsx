@@ -1,4 +1,5 @@
 import { Shield, Users, Zap } from "lucide-react";
+import React from "react";
 
 export function About() {
   const features = [
@@ -35,7 +36,7 @@ export function About() {
           {features.map((feature, index) => (
             <div key={index} className="text-center space-y-4">
               <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-                <feature.icon className="h-8 w-8 text-primary" />
+                <feature.icon color="black" className="h-8 w-8 text-primary" />
               </div>
               <h3 className="text-xl text-primary">{feature.title}</h3>
               <p className="text-muted-foreground">{feature.description}</p>

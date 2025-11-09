@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "titulo": "Orçamento Personalizado",
+        "icone": "Shield",
+        "descricao": "Orçamento perçonalizado de acordo com a necessidade do cliente."
+    },
+    {
+        "id": 2,
+        "titulo": "Logística Própria",
+        "icone": "Truck",
+        "descricao": "Entrega facil e rápida, sempre disponíveis para atender."
+    },
+    {
+        "id": 3,
+        "titulo": "Qualidade Garantida",
+        "icone": "Users",
+        "descricao": "Equipamentos novos e seminovos, prontos para uso com total segurança."
+    }
+]

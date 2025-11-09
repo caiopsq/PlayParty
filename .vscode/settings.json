@@ -1,0 +1,25 @@
+{
+    "editor.minimap.enabled": false,
+    "tailwindCSS.includeLanguages": {
+        "javascript": "javascript",
+        "typescript": "typescript",
+        "html": "html",
+        "jsx": "javascriptreact",
+        "tsx": "typescriptreact"
+      },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "workbench.colorTheme": "GitHub Dark",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "editor.largeFileOptimizations": false,
+    "tailwindCSS.experimental.configFile": null,
+    "tailwindCSS.experimental.classRegex": [
+
+    ]
+}
