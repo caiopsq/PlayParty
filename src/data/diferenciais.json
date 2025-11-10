@@ -2,7 +2,7 @@
     {
         "id": 1,
         "titulo": "Orçamento Personalizado",
-        "icone": "Shield",
+        "icone": "ReceiptText",
         "descricao": "Orçamento perçonalizado de acordo com a necessidade do cliente."
     },
     {
@@ -14,7 +14,7 @@
     {
         "id": 3,
         "titulo": "Qualidade Garantida",
-        "icone": "Users",
+        "icone": "ShieldCheck",
         "descricao": "Equipamentos novos e seminovos, prontos para uso com total segurança."
     }
 ]

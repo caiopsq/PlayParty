@@ -1,4 +1,4 @@
-import { Truck } from 'lucide-react';
+import { Truck, Shield, ReceiptText } from 'lucide-react';
 import diferenciais from '../data/diferenciais.json';
 
 
