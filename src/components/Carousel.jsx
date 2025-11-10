@@ -18,19 +18,19 @@ export default function DestaqueCarousel() {
 
     return (
         <div className="relative">
-            <div className="aspect-square rounded-2xl overflow-hidden bg-muted relative">
+            <div className="aspect-square rounded-2xl overflow-hidden bg-muted relative w-full h-full">
                 {imagens.map((src, i) => (
                     <img
                         key={i}
                         src={src}
                         alt={`Imagem ${i + 1}`}
-                        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${i === index ? "!opacity-100" : "!opacity-0"
+                        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-in-out ${i === index ? "opacity-100 z-10" : "opacity-0 z-0"
                             }`}
                     />
                 ))}
             </div>
 
-            <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-6 rounded-xl">
+            <div className="absolute z-20 -bottom-6 -left-6 bg-primary text-primary-foreground p-6 rounded-xl">
                 <p className="text-sm">A melhor escolha para o seu evento.</p>
             </div>
         </div>
