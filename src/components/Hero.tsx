@@ -2,6 +2,8 @@ import React from "react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { ArrowRight } from "lucide-react";
+// import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import DestaqueCarousel from "./Carousel";
 
 export function Hero() {
   return (
@@ -49,18 +51,8 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="aspect-square rounded-2xl overflow-hidden bg-muted">
-              <ImageWithFallback
-                src="https://images.unsplash.com/photo-1601599967100-f16100982063?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Modern office team collaborating"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-6 rounded-xl">
-              <p className="text-sm">A melhor escolha para o seu evento.</p>
-            </div>
-          </div>
+          <DestaqueCarousel />
+
         </div>
       </div>
     </section>
