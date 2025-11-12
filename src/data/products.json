@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Freezer Horizontal",
     "description": "Mantenha suas bebidas sempre geladas enquanto realiza o seu evento.",
-    "image": "/img/freezerHorizontal.png",
+    "image": "/img/freezerHorizontal.jpeg",
     "category": "Freezers",
     "features": [
       "Mantém produtos refrigerados",
@@ -18,7 +18,7 @@
     "id": 2,
     "name": "Frigobar",
     "description": "Ideal para eventos pequenos e com a necessidade de manter itens refrigerados.",
-    "image": "/img/frigobar.png",
+    "image": "/img/frigobar.jpeg",
     "category": "Refrigeração",
     "features": [
       "Mantém produtos refrigerados",
@@ -62,7 +62,7 @@
     "id": 3,
     "name": "Geladeira",
     "description": "Ideal para eventos médios em que será necessário refrigerar.",
-    "image": "/img/geladeira.png",
+    "image": "/img/geladeira.jpeg",
     "category": "Refrigeração",
     "features": [
       "Mantém produtos refrigerados",
