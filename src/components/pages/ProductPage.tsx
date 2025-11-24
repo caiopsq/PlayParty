@@ -3,6 +3,7 @@ import React from "react";
 import { Header } from "../Header";
 import ProductDetails from "../Product";
 import SideMenu from "../SideMenu";
+import { Footer } from "../Footer";
 
 function ProductPage() {
     const [searchParams] = useSearchParams();
@@ -17,6 +18,7 @@ function ProductPage() {
                 <SideMenu className="" />
                 <ProductDetails className="" id={id} />
             </main>
+            <Footer />
         </div>
     )
 }
