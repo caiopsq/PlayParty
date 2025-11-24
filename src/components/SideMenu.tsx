@@ -47,7 +47,7 @@ const SideMenu: React.FC = ({ id, name }: ProductCardProps) => {
 
     return (
         // Container Principal do Menu
-        <nav className="w-64 h-screen bg-none p-5 border-none pt-20">
+        <nav className="w-64 h-screen bg-none border-none pt-20 ml-5">
             <h2 className="text-xl font-bold text-gray-800 mb-4">Produtos</h2>
 
             {Object.keys(GroupedProducts).map((category) => (

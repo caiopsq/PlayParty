@@ -1,8 +1,9 @@
 {
-      "name": "Company Product Showcase Site",
+      "name": "playparty-locacoes",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
+            "@mantine/core": "^8.3.9",
             "@radix-ui/react-accordion": "^1.2.3",
             "@radix-ui/react-alert-dialog": "^1.1.6",
             "@radix-ui/react-aspect-ratio": "^1.1.2",
@@ -59,5 +60,10 @@
       "scripts": {
             "dev": "vite",
             "build": "vite build"
-      }
+      },
+      "description": "This is a code bundle for Company Product Showcase Site. The original project is available at https://www.figma.com/design/JfuCIdTcBun5vYcHkUnnPU/Company-Product-Showcase-Site.",
+      "main": "index.js",
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
 }

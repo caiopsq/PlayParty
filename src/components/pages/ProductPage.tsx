@@ -1,6 +1,7 @@
 import { useSearchParams } from "react-router-dom";
+import React from "react";
 import { Header } from "../Header";
-import  ProductDetails from "../Product";
+import ProductDetails from "../Product";
 import SideMenu from "../SideMenu";
 
 function ProductPage() {
@@ -12,9 +13,9 @@ function ProductPage() {
     return (
         <div className="min-h-screen">
             <Header />
-            <main className="pt-20 flex justify-center">
-                <SideMenu />
-                <ProductDetails id={id} />
+            <main style={{justifyContent: "space-evenly"}} className="flex row pt-20">
+                <SideMenu className="" />
+                <ProductDetails className="" id={id} />
             </main>
         </div>
     )
