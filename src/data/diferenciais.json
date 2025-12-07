@@ -1,18 +1,24 @@
 [
     {
         "id": 1,
+        "titulo": "Emissão de Nota Fiscal",
+        "icone": "ReceiptText",
+        "descricao": "Emissão rápida e segura de nota fiscal para todos os serviços."
+    },
+    {
+        "id": 2,
         "titulo": "Orçamento Personalizado",
         "icone": "ReceiptText",
         "descricao": "Orçamento perçonalizado de acordo com a necessidade do cliente."
     },
     {
-        "id": 2,
+        "id": 3,
         "titulo": "Logística Própria",
         "icone": "Truck",
         "descricao": "Entrega facil e rápida, sempre disponíveis para atender."
     },
     {
-        "id": 3,
+        "id": 4,
         "titulo": "Qualidade Garantida",
         "icone": "ShieldCheck",
         "descricao": "Equipamentos novos e seminovos, prontos para uso com total segurança."
