@@ -66,7 +66,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <h3 className="text-xl mb-4">PlayParty</h3>
             <p className="text-primary-foreground/80 mb-6 max-w-sm">
-              O seu <strong>parceiro e fornecedor de confiança</strong>, garantindo os <strong>melhores produtos</strong> para o sucesso do seu evento. 📞 <strong>Fale com a gente</strong>: (61) 99214-9916
+              O seu <strong>parceiro e fornecedor de confiança</strong>, garantindo os <strong>melhores produtos</strong> para o sucesso do seu evento.<br></br>📞 <strong>Fale com a gente</strong>: (61) 99214-9916
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
