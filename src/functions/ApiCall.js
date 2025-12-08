@@ -1,5 +1,5 @@
 export default function callApi(item){
-    fetch(`https://api-vercel-navy-nine.vercel.app/playparty/whatsapp`, {
+    fetch(`https://api-vercel-navy-nine.vercel.app/playparty`, {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
