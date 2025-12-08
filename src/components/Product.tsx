@@ -1,11 +1,7 @@
 import * as React from "react";
-
-import { useState, useEffect } from "react";
-
+import { useState, useEffect } from "react"
 import { ProductData } from "../types/Product";
-
 import productsData from "../data/products.json";
-
 import WhatsappButton from "./WhatsappButton";
 
 interface ProductDetailProps {
@@ -32,8 +28,8 @@ const ProductDetails: React.FC<ProductDetailProps> = ({ id }) => {
     }
 
     return (
-        <section id="product" className="">
-            <div className="container mx-auto px-4 pt-20">
+        <section id="product" className="w-[900px] max-w-100">
+            <div className="px-4 pt-20">
                 <div className="max-x-3xl mx-auto text-center mb-16">
                     <h2 className="text-3xl md:text-4xl text-primary mb-6">
                         {product.name}

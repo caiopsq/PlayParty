@@ -4,7 +4,7 @@
     "name": "Freezer Horizontal",
     "description": "Mantenha suas bebidas sempre geladas enquanto realiza o seu evento.",
     "image": "/img/freezerHorizontal.jpeg",
-    "category": "Freezers",
+    "category": "Refrigeração",
     "features": [
       "Mantém produtos refrigerados",
       "Manutenção em dia",
@@ -47,10 +47,6 @@
       {
         "question": "Em quais tipos de eventos se usa frigobar?",
         "answer": "Frigobares são usados em eventos como confraternizações, reuniões, stands, exposições ou em quaisquer outras ocasiões em que se queira refrigerar bebidas, frutas e uma quantidade limitada de alimentos. Um exemplo é em stands, em que uma empresa pode alugar um frigobar para oferecer água fresca a seus clientes."
-      },
-      {
-        "question": "Quanto custa o aluguel de um frigobar?",
-        "answer": "O preço do aluguel de um frigobar varia de acordo com o tempo de uso e modelo. A Magui Locação oferece dois modelos: Frigobar de 120 L e o frigobar retrô, de 60 L, enquanto o aluguel desse eletrodoméstico custa a partir de R$ 90 por dia."
       },
       {
         "question": "Em quais casos compensa alugar um frigobar?",
