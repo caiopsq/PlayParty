@@ -12,7 +12,28 @@
     ],
     "price": "",
     "type": "refrigeracao",
-    "questions" : []
+    "questions": [
+      {
+        "question": "Qual a principal vantagem do Freezer Horizontal?",
+        "answer": "A principal vantagem é a capacidade de armazenamento e a eficiência em gelar grandes quantidades de bebidas rapidamente. Por ter a abertura superior, ele segura o ar frio por mais tempo, garantindo a temperatura ideal mesmo com o abre e fecha do evento."
+      },
+      {
+        "question": "O que posso armazenar no Freezer Horizontal?",
+        "answer": "Ele é perfeito para caixas de cerveja, refrigerantes, sacos de gelo e carnes para churrasco. Sua estrutura interna ampla permite acomodar itens volumosos que não caberiam em uma geladeira comum."
+      },
+      {
+        "question": "Freezer Horizontal serve apenas para congelar?",
+        "answer": "Não necessariamente. A maioria dos modelos possui termostato dupla ação, permitindo ajustar para o modo 'refrigerador' (apenas gelar) ou 'conservador/freezer' (congelar). Isso o torna versátil tanto para gelar bebidas quanto para manter sorvetes e gelo intactos."
+      },
+      {
+        "question": "Para quais eventos o Freezer Horizontal é indicado?",
+        "answer": "É indispensável para eventos com grande consumo de bebidas, como casamentos, churrascos, festas de aniversário e confraternizações de empresas, onde a geladeira comum não daria conta da demanda."
+      },
+      {
+        "question": "Por que alugar um Freezer em vez de usar a geladeira do local?",
+        "answer": "Alugar um freezer libera sua geladeira para alimentos e sobremesas, evita o trânsito de convidados na cozinha e garante que a bebida esteja trincando do início ao fim da festa, sem sobrecarregar seus eletrodomésticos."
+      }
+    ]
   },
   {
     "id": 2,
@@ -67,7 +88,24 @@
     ],
     "price": "",
     "type": "refrigeracao",
-    "questions" : []
+    "questions": [
+      {
+        "question": "Quando devo escolher uma Geladeira em vez de um Freezer?",
+        "answer": "A geladeira é a escolha ideal quando você precisa organizar alimentos prontos, saladas, bolos e doces que precisam de refrigeração, mas não podem congelar. As prateleiras facilitam a organização visual e o acesso rápido."
+      },
+      {
+        "question": "A Geladeira é indicada para gelar bebidas em festas?",
+        "answer": "Sim, para eventos de médio porte. Ela é ótima para manter refrigerantes, águas e sucos na temperatura ideal para consumo imediato, sem o risco de congelar ou estourar as garrafas, como pode acontecer em freezers desregulados."
+      },
+      {
+        "question": "Qual a capacidade de armazenamento?",
+        "answer": "Nossas geladeiras são modelos convencionais que oferecem um excelente equilíbrio entre espaço para alimentos nas prateleiras e espaço para bebidas na porta, atendendo bem ao suporte de cozinhas e buffets."
+      },
+      {
+        "question": "Para quais tipos de eventos a Geladeira é recomendada?",
+        "answer": "É essencial para festas que servem almoço ou jantar, eventos corporativos com coffee break, ou como apoio de cozinha para buffets que precisam manter os ingredientes frescos antes do preparo."
+      }
+    ]
   },
   {
     "id": 4,
@@ -81,7 +119,24 @@
     ],
     "price": "",
     "type": "forros",
-    "questions" : []
+    "questions": [
+      {
+        "question": "Qual o tamanho das toalhas e em quais mesas elas cabem?",
+        "answer": "Nossas toalhas medem 1,50 x 1,50 metros. Elas são ideais para as mesas quadradas de plástico padrão (70x70cm), proporcionando um caimento elegante, mas também podem ser usadas como cobre-manchas em mesas maiores."
+      },
+      {
+        "question": "Por que alugar toalhas ao invés de usar mesas sem forro?",
+        "answer": "As toalhas transformam o visual do ambiente, trazendo cor e sofisticação para a festa. Além da estética, elas são higiênicas e proporcionam mais conforto aos convidados ao apoiarem os braços na mesa."
+      },
+      {
+        "question": "Tenho que lavar as toalhas antes de devolver?",
+        "answer": "Não! A grande vantagem do aluguel é a praticidade. Você recebe as toalhas limpas e higienizadas, prontas para uso, e nós cuidamos de toda a lavagem e higienização após o evento."
+      },
+      {
+        "question": "Posso escolher as cores das toalhas?",
+        "answer": "Sim, oferecemos cores variadas para que você possa harmonizar com o tema da sua festa, seja um evento corporativo sóbrio ou uma festa infantil colorida."
+      }
+    ]
   },
   {
     "id": 6,
@@ -96,7 +151,24 @@
     ],
     "price": "",
     "type": "mesas",
-    "questions" : []
+    "questions": [
+      {
+        "question": "O que compõe o conjunto de Mesas e Cadeiras?",
+        "answer": "O conjunto padrão é composto geralmente por 1 mesa quadrada e 4 cadeiras. É a configuração ideal para otimizar o espaço e garantir o conforto dos convidados em grupos."
+      },
+      {
+        "question": "As mesas e cadeiras ocupam muito espaço?",
+        "answer": "Nossos conjuntos são projetados para serem compactos e eficientes. Para um evento confortável, recomenda-se calcular cerca de 2,5 a 3 metros quadrados por conjunto (mesa + 4 cadeiras + circulação)."
+      },
+      {
+        "question": "Para quais ocasiões o aluguel do conjunto é indicado?",
+        "answer": "Praticamente para qualquer evento onde haverá comida ou necessidade de descanso: jantares, churrascos, festas de aniversário, reuniões de condomínio e eventos religiosos."
+      },
+      {
+        "question": "Qual a vantagem de alugar o conjunto completo?",
+        "answer": "Alugar o conjunto garante uniformidade visual no seu evento e sai mais em conta do que locar peças avulsas. Além disso, garante que todos os convidados tenham onde se sentar e apoiar seus pratos e copos."
+      }
+    ]
   },
   {
     "id": 5,
@@ -111,6 +183,23 @@
     ],
     "price": "",
     "type": "cadeiras",
-    "questions" : []
+    "questions": [
+      {
+        "question": "Quando devo alugar apenas cadeiras avulsas?",
+        "answer": "As cadeiras avulsas são ideais para palestras, cultos, cerimônias de casamento ou apresentações onde não há necessidade de mesas. Também são úteis para aumentar a capacidade de lugares em mesas que você já possui."
+      },
+      {
+        "question": "As cadeiras são resistentes?",
+        "answer": "Sim, trabalhamos com cadeiras de material plástico reforçado, certificadas para suportar o peso padrão com segurança e estabilidade, garantindo a tranquilidade do seu evento."
+      },
+      {
+        "question": "Elas são fáceis de transportar e guardar?",
+        "answer": "Sim, nossas cadeiras são empilháveis. Isso facilita muito a logística antes e depois da festa, permitindo que você libere espaço no salão rapidamente quando necessário."
+      },
+      {
+        "question": "As cadeiras são confortáveis para longos períodos?",
+        "answer": "Elas possuem design ergonômico padrão para eventos, sendo adequadas para jantares e festas. Para maior conforto visual e tátil, elas podem ser usadas com capas de tecido (alugadas à parte)."
+      }
+    ]
   }
 ]
