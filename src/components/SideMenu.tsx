@@ -47,15 +47,15 @@ const SideMenu: React.FC = ({ id, name }: ProductCardProps) => {
 
     return (
         // Container Principal do Menu
-        <nav className="w-64 h-screen bg-none border-none pt-20 ml-5">
-            <h2 className="text-xl font-bold text-gray-800 mb-4">Produtos</h2>
+        <nav className="cursor-pointer w-64 h-screen bg-none border-none pt-20 ml-5 ">
+            <h2 className="cursor-pointer text-xl font-bold text-gray-800 mb-4">Produtos</h2>
 
             {Object.keys(GroupedProducts).map((category) => (
                 <div key={category} className="mb-2">
                     {/* Título da Categoria (Botão) */}
                     <button
                         onClick={() => handleCategoryClick(category)}
-                        className="w-full flex justify-between items-center p-2 text-left font-bold text-gray-700 bg-gray-200 hover:bg-gray-300 rounded-md transition-colors duration-200"
+                        className="cursor-pointer w-full flex justify-between items-center p-2 text-left font-bold text-gray-700 bg-gray-200 hover:bg-gray-300 rounded-md transition-colors duration-200"
                     >
                         {category}
                         {/* Ícone de seta que rotaciona (opcional, mas melhora a UX) */}
@@ -74,9 +74,9 @@ const SideMenu: React.FC = ({ id, name }: ProductCardProps) => {
                     {openCategory === category && (
                         <ul className="pl-4 mt-2">
                             {GroupedProducts[category].map((product) => (
-                                <li onClick={() => onSeeDetailsClick(product.id, product.name)} key={product.id} className="text-gray-600">
+                                <button onClick={() => onSeeDetailsClick(product.id, product.name)} key={product.id} className="cursor-pointer text-gray-600">
                                     {product.name}
-                                </li>
+                                </button>
                             ))}
                         </ul>
                     )}
