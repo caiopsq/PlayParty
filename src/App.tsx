@@ -8,6 +8,7 @@ import { Footer } from "./components/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import WhatsappButton from "./components/WhatsappButton";
 import Destaques from "./components/Destaques";
+import Avaliacoes from "./components/Avaliacoes";
 
 
 export default function App() {
@@ -16,8 +17,9 @@ export default function App() {
       <Header />
       <main>
         <Hero />
-        <About />
         <Products />
+        <About />
+        <Avaliacoes />
         <Contact />
         <Destaques />
         <WhatsappButton numero="5561992149916"/>

@@ -4,7 +4,7 @@ import Product from "./Product";
 import { useNavigate } from "react-router-dom";
 
 type GroupedProducts = {
-    [key: string]: Product[];
+    [key: string]: typeof Product[];
 };
 
 interface ProductCardProps {
