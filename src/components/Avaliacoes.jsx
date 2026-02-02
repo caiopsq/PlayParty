@@ -21,7 +21,7 @@ function ReviewCard({ review }) {
   const text = truncate(review.text || "", 150);
 
   return (
-    <div className="bg-white rounded-xl p-6 shadow-lg flex-shrink-0 w-72 sm:w-80 h-[260px] cursor-pointer transition-transform duration-300 ease-out
+    <div className="bg-white rounded-xl p-6 shadow-lg flex-shrink-0 w-72 sm:w-80 h-[260px]   transition-transform duration-300 ease-out
              hover:scale-[1.02] hover:shadow-xl">
       <div className="flex items-center mb-4">
         <div className="w-12 h-12 rounded-full overflow-hidden mr-4 flex-shrink-0">
