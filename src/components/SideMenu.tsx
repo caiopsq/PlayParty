@@ -23,7 +23,7 @@ const SideMenu: React.FC = ({ id, name }: ProductCardProps) => {
     const selectedId = Number(searchParams.get("id"));    
 
     const navigate = useNavigate();
-    const [openCategory, setOpenCategory] = useState<string | null>(null);
+    const [openCategory, setOpenCategory] = useState(null);
 
     const GroupedProducts = useMemo(() => {
         return productsData.reduce((acc, product) => {
@@ -49,10 +49,11 @@ const SideMenu: React.FC = ({ id, name }: ProductCardProps) => {
     }
 
     const selectedCategory = useMemo(() => {
-        if (!selectedCategory) return null;
+        if (!selectedId) return null;
+
         const found = productsData.find((p: any) => p.id === selectedId);
         return found?.category ?? null;
-    }, [selectedId]);
+    }, [selectedId, productsData]);
 
     useEffect(() => {
         if (selectedCategory) {
