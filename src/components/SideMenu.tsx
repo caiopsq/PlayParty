@@ -23,7 +23,7 @@ const SideMenu: React.FC = ({ id, name }: ProductCardProps) => {
     const selectedId = Number(searchParams.get("id"));    
 
     const navigate = useNavigate();
-    const [openCategory, setOpenCategory] = useState(null);
+    const [openCategory, setOpenCategory] = useState<string | null>(null);
 
     const GroupedProducts = useMemo(() => {
         return productsData.reduce((acc, product) => {

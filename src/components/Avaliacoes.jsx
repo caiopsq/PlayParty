@@ -23,6 +23,9 @@ function ReviewCard({ review }) {
   return (
     <div className="bg-white rounded-xl p-6 shadow-lg shrink-0 w-72 sm:w-80 h-[260px]   transition-transform duration-300 ease-out
              hover:scale-[1.02] hover:shadow-xl">
+              <h2 id="nossos-clientes-titulo" className="nossos-clientes__titulo">
+          Avaliações de quem já alugou conosco
+        </h2>
       <div className="flex items-center mb-4">
         <div className="w-12 h-12 rounded-full overflow-hidden mr-4 shrink-0">
           <img

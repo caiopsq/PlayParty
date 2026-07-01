@@ -9,6 +9,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react"
 import WhatsappButton from "./components/WhatsappButton";
 import Destaques from "./components/Destaques";
 import Avaliacoes from "./components/Avaliacoes";
+import NossosClientes from "./components/NossosClientes";
 
 
 export default function App() {
@@ -19,7 +20,7 @@ export default function App() {
         <Hero />
         <Products />
         <About />
-        <Avaliacoes />
+        <NossosClientes />
         <Contact />
         <Destaques />
         <WhatsappButton numero="5561992149916"/>
