@@ -4,6 +4,7 @@
   import App from "./App.tsx";
   import Sandbox from "./components/pages/Sandbox.jsx";
   import ProductPage from "./components/pages/ProductPage.tsx";
+  import NossosClientes from "./components/NossosClientes.tsx";
   import './index.css';
   import { createBrowserRouter, RouterProvider } from "react-router-dom";
   const router = createBrowserRouter([
@@ -17,7 +18,7 @@
       },
       {
         path: "/playground",
-        element: <Sandbox />,
+        element: <NossosClientes />,
       }
   ]);
 
