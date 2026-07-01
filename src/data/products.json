@@ -201,5 +201,77 @@
         "answer": "Elas possuem design ergonômico padrão para eventos, sendo adequadas para jantares e festas. Para maior conforto visual e tátil, elas podem ser usadas com capas de tecido (alugadas à parte)."
       }
     ]
-  }
+  },
+  {
+  "id": 7,
+  "name": "Freezer Vertical Expositor",
+  "description": "Ideal para expor bebidas geladas e facilitar o acesso dos convidados durante o evento.",
+  "image": "/img/freezerVerticalExpositor.jpeg",
+  "category": "Refrigeração",
+  "features": [
+    "Porta de vidro para exposição",
+    "Prateleiras ajustáveis",
+    "Excelente visibilidade dos produtos"
+  ],
+  "price": "",
+  "type": "refrigeracao",
+  "questions": [
+    {
+      "question": "Qual a principal vantagem do Freezer Vertical Expositor?",
+      "answer": "Sua principal vantagem é permitir que as bebidas fiquem visíveis através da porta de vidro, facilitando a escolha dos convidados e reduzindo o tempo de abertura da porta, ajudando a manter a temperatura interna."
+    },
+    {
+      "question": "O que posso armazenar no Freezer Vertical Expositor?",
+      "answer": "É ideal para armazenar latas, garrafas, energéticos, águas, refrigerantes, cervejas e outras bebidas que precisam permanecer geladas e organizadas."
+    },
+    {
+      "question": "O Freezer Vertical Expositor congela as bebidas?",
+      "answer": "O equipamento é configurado para manter bebidas na temperatura ideal para consumo. Dependendo da regulagem, também pode conservar outros produtos refrigerados, sem necessariamente congelá-los."
+    },
+    {
+      "question": "Para quais eventos ele é recomendado?",
+      "answer": "É muito utilizado em festas, casamentos, aniversários, eventos corporativos, feiras, stands e estabelecimentos que desejam oferecer bebidas geladas de forma prática e organizada."
+    },
+    {
+      "question": "Por que alugar um Freezer Vertical Expositor?",
+      "answer": "Além de manter as bebidas sempre geladas, ele agrega um visual mais profissional ao evento, facilita o autoatendimento dos convidados e melhora a organização do espaço."
+    }
+  ]
+},
+{
+  "id": 8,
+  "name": "Climatizador",
+  "description": "Proporcione mais conforto térmico aos seus convidados em ambientes internos ou externos.",
+  "image": "/img/climatizador.jpeg",
+  "category": "Climatização",
+  "features": [
+    "Reduz a sensação térmica",
+    "Baixo consumo de energia",
+    "Ideal para ambientes abertos e fechados"
+  ],
+  "price": "",
+  "type": "climatizacao",
+  "questions": [
+    {
+      "question": "Como funciona o Climatizador?",
+      "answer": "O climatizador utiliza água para resfriar o ar e proporcionar uma sensação térmica mais agradável, sem o alto consumo de energia de um ar-condicionado."
+    },
+    {
+      "question": "O Climatizador substitui um ar-condicionado?",
+      "answer": "Não. Ele não reduz a temperatura do ambiente da mesma forma que um ar-condicionado, mas melhora significativamente o conforto térmico, principalmente em locais bem ventilados."
+    },
+    {
+      "question": "Em quais eventos o Climatizador é indicado?",
+      "answer": "É ideal para casamentos, aniversários, confraternizações, eventos corporativos, feiras, churrascos e qualquer evento realizado em locais quentes ou com grande circulação de pessoas."
+    },
+    {
+      "question": "O Climatizador pode ser utilizado em áreas externas?",
+      "answer": "Sim. Ele apresenta excelente desempenho em áreas externas cobertas, varandas, tendas e espaços amplos, desde que haja boa circulação de ar."
+    },
+    {
+      "question": "Quais são as vantagens de alugar um Climatizador?",
+      "answer": "O aluguel evita o alto investimento na compra do equipamento, garante conforto para os convidados durante o evento e elimina preocupações com manutenção e armazenamento após o uso."
+    }
+  ]
+}
 ]
