@@ -1,0 +1,65 @@
+.nossos-clientes {
+  width: 100%;
+  padding: 4rem 1rem;
+  background: #ffffff;
+}
+
+.nossos-clientes__container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.nossos-clientes__titulo {
+  margin: 0 0 1.75rem;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #111827;
+  text-align: center;
+}
+
+.nossos-clientes__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.nossos-clientes__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 110px;
+  padding: 0.875rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #f9fafb;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nossos-clientes__item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.nossos-clientes__logo {
+  width: 100%;
+  max-width: 170px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .nossos-clientes {
+    padding: 3rem 0.875rem;
+  }
+
+  .nossos-clientes__titulo {
+    font-size: 1.625rem;
+  }
+
+  .nossos-clientes__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+}
