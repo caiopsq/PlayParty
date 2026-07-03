@@ -20,6 +20,19 @@ const clientes: Cliente[] = [
     nome: "Condomínio Lake Side",
     logo: "https://lakeside.com.br/wp-content/uploads/Lake-side-Azul.png",
   },
+  { 
+    nome: "Rede D'or", 
+    logo: "https://wp.rededorsaoluiz.com.br/wp-content/uploads/2022/01/RedeDor-SaoLuiz-2.svg"
+  },
+  {
+    nome: "Agro Brasília",
+    logo: "https://conexinternet.com.br/agrobrasilia/Assets/img/logo_AgroBrasilia2020.png",
+  },
+  {
+    nome: "Capital Moto Week",
+    logo: "https://static.wixstatic.com/media/fa942f_18d2546e20a3468fa4d60ffca0bfa7bf~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/CMW2026%20-%20Logo%20-%20Button%20Wired%20Negative.png",
+  },
+  
 ];
 
 export default function NossosClientes() {
