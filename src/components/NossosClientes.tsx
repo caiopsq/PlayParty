@@ -32,6 +32,10 @@ const clientes: Cliente[] = [
     nome: "Capital Moto Week",
     logo: "https://static.wixstatic.com/media/fa942f_18d2546e20a3468fa4d60ffca0bfa7bf~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/CMW2026%20-%20Logo%20-%20Button%20Wired%20Negative.png",
   },
+  {
+    nome: "Senac",
+    logo: "https://www.senac.br/assets/svg/logo-negativo-vertical.svg",
+  },
   
 ];
 
