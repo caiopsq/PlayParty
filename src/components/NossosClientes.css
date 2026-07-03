@@ -1,11 +1,11 @@
 .nossos-clientes {
   width: 100%;
   padding: 4rem 1rem;
-  background: #ffffff;
+  background: #eaebed;
 }
 
 .nossos-clientes__container {
-  max-width: 1120px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -30,9 +30,9 @@
   justify-content: center;
   min-height: 110px;
   padding: 0.875rem;
-  border: 1px solid #e5e7eb;
+  border: none;
   border-radius: 12px;
-  background: #a3a3a3;
+  background: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
