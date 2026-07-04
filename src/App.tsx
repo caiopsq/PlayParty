@@ -21,8 +21,9 @@ export default function App() {
         <Products />
         <About />
         <NossosClientes />
-        <Contact />
         <Destaques />
+        <Avaliacoes />
+        <Contact />
         <WhatsappButton numero="5561992149916"/>
         <SpeedInsights/>
       </main>
