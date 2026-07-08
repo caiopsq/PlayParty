@@ -21,29 +21,31 @@ function ReviewCard({ review }) {
   const text = truncate(review.text || "", 150);
 
   return (
-    <div className="bg-white rounded-xl p-6 shadow-lg shrink-0 w-72 sm:w-80 h-[260px]   transition-transform duration-300 ease-out
+    <div className="flex-shrink-0">
+      <div className="bg-white rounded-xl p-6 shadow-lg shrink-0 w-72 sm:w-80 h-[260px]   transition-transform duration-300 ease-out
              hover:scale-[1.02] hover:shadow-xl">
-              
-      <div className="flex items-center mb-4">
-        <div className="w-12 h-12 rounded-full overflow-hidden mr-4 shrink-0">
-          <img
-            src={review.profile_photo_url}
-            alt={review.author_name}
-            className="w-full h-full object-cover"
-            loading="lazy"
-          />
-        </div>
-        <div>
-          <h4 className="font-semibold">{review.author_name}</h4>
-          <p className="text-sm text-gray-500">{review.relative_time_description}</p>
-        </div>
-      </div>
 
-      <div className="flex mb-3">
-        <Stars rating={review.rating} />
-      </div>
+        <div className="flex items-center mb-4">
+          <div className="w-12 h-12 rounded-full overflow-hidden mr-4 shrink-0">
+            <img
+              src={review.profile_photo_url}
+              alt={review.author_name}
+              className="w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <div>
+            <h4 className="font-semibold">{review.author_name}</h4>
+            <p className="text-sm text-gray-500">{review.relative_time_description}</p>
+          </div>
+        </div>
 
-      <p className="text-gray-600 line-clamp-3">"{text}"</p>
+        <div className="flex mb-3">
+          <Stars rating={review.rating} />
+        </div>
+
+        <p className="text-gray-600 line-clamp-3">"{text}"</p>
+      </div>
     </div>
   );
 }
@@ -248,6 +250,9 @@ export default function Avaliacoes() {
   return (
     <section id="depoimentos" className="w-full">
       <div className="container mx-auto px-4">
+        <h2 className="mb-6 text-center text-3xl font-bold text-gray-800 sm:text-4xl">
+          Avaliações de quem já alugou conosco
+        </h2>
         {error ? (
           <p className="text-center">Não foi possível carregar as avaliações.</p>
         ) : (
