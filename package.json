@@ -58,7 +58,7 @@
             "autoprefixer": "^10.4.21",
             "postcss": "^8.5.12",
             "tailwindcss": "^4.1.13",
-            "vite": "6.3.5"
+            "vite": "6.4.3"
       },
       "scripts": {
             "dev": "vite",
