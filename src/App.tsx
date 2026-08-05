@@ -10,6 +10,7 @@ import WhatsappButton from "./components/WhatsappButton";
 import Destaques from "./components/Destaques";
 import Avaliacoes from "./components/Avaliacoes";
 import NossosClientes from "./components/NossosClientes";
+import Carousel from "./components/infinite_carrousel/carousel";
 
 
 export default function App() {
@@ -20,7 +21,7 @@ export default function App() {
         <Hero />
         <Products />
         <About />
-        <NossosClientes />
+        <Carousel />
         <Destaques />
         <Avaliacoes />
         <Contact />

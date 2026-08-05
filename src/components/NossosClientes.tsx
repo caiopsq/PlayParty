@@ -6,37 +6,55 @@ type Cliente = {
 };
 
 const clientes: Cliente[] = [
-  { nome: "Qualifoco", logo: "https://www.qualifoco.com/wp-content/uploads/2025/02/logoqualifoco.png" },
-  { nome: "FGV", logo: "https://portal.fgv.br/sites/default/themes/custom/portal/logo.svg" },
-  { nome: "FNDS", logo: "https://www.fnds.gov.mz/images/fnds-%20logo.png" },
-  { nome: "World Gym", logo: "https://worldgymacademia.com.br/wp-content/webp-express/webp-images/uploads/2025/12/Vermelha.png.webp" },
+  {
+    nome: "Qualifoco",
+    logo: "/img/clientes/logoqualifoco.png"
+  },
+  {
+    nome: "FGV",
+    logo: "/img/clientes/fgv_logo.svg"
+  },
+  {
+    nome: "FNDS",
+    logo: "/img/clientes/fnds-logo.png"
+  },
+  {
+    nome: "World Gym",
+    logo: "/img/clientes/worldgym.png"
+  },
   {
     nome: "VIAÇÃO PIRACICABANA",
-    logo: "https://www.piracicabanadf.com.br/wp-content/uploads/2023/12/Logo-piracicabana-df.png",
+    logo: "/img/clientes/Logo-piracicabana-df.png",
   },
-  { nome: "AGEPOL", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwSWHegK9PPim31pFAR7o3C3TrL-F7MmBLHf3UzOLubA&s" },
-  { nome: "ASSEFAZ", logo: "https://cdn.sanity.io/images/2gm6q1qy/production/abfb0940fb0283aef4eec58d22a732ca35fbdd30-168x168.svg" },
+  {
+    nome: "AGEPOL",
+    logo: "/img/clientes/agepol_logo.png"
+  },
+  {
+    nome: "ASSEFAZ",
+    logo: "/img/clientes/assefaz_logo.svg"
+  },
   {
     nome: "Condomínio Lake Side",
-    logo: "https://lakeside.com.br/wp-content/uploads/Lake-side-Azul.png",
+    logo: "/img/clientes/Lake_side_logo.png",
   },
-  { 
-    nome: "Rede D'or", 
-    logo: "https://wp.rededorsaoluiz.com.br/wp-content/uploads/2022/01/RedeDor-SaoLuiz-2.svg"
+  {
+    nome: "Rede D'or",
+    logo: "/img/clientes/RedeDor_logo.svg",
   },
   {
     nome: "Agro Brasília",
-    logo: "https://conexinternet.com.br/agrobrasilia/Assets/img/logo_AgroBrasilia2020.png",
+    logo: "/img/clientes/logo_AgroBrasilia.png",
   },
   {
     nome: "Capital Moto Week",
-    logo: "https://static.wixstatic.com/media/fa942f_18d2546e20a3468fa4d60ffca0bfa7bf~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/CMW2026%20-%20Logo%20-%20Button%20Wired%20Negative.png",
+    logo: "/img/clientes/cmw_logo.avif",
   },
   {
     nome: "Senac",
-    logo: "https://www.senac.br/assets/svg/logo-negativo-vertical.svg",
+    logo: "/img/clientes/logo_senac.svg",
   },
-  
+
 ];
 
 export default function NossosClientes() {
