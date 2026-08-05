@@ -1,4 +1,4 @@
-import "./NossosClientes.css";
+
 
 type Cliente = {
   nome: string;

@@ -4,9 +4,9 @@ import Marquee from 'react-fast-marquee'
 export default function Carousel() {
     return (
 
-        <section className="nossos-clientes flex h-screen justify-center items-center" aria-labelledby="nossos-clientes-titulo" style={{ 'background-color': '#dcdddf' }}>
+        <section className="nossos-clientes py-24 flex h-screen justify-center items-center" aria-labelledby="nossos-clientes-titulo" style={{ 'background-color': '#dcdddf' }}>
             <div className="nossos-clientes__container">
-                <h2 id="nossos-clientes-titulo" className="nossos-clientes__titulo">
+                <h2 id="nossos-clientes-titulo" className="nossos-clientes__titulo justify-center text-gray-800 mb-12 items-center text-center text-3xl font-bold mb-8">
                     Nossos clientes
                 </h2>
                 <section className="flex h-screen justify-center items-center w-[300]" style={{ 'background-color': '#dcdddf' }}>

@@ -9,9 +9,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react"
 import WhatsappButton from "./components/WhatsappButton";
 import Destaques from "./components/Destaques";
 import Avaliacoes from "./components/Avaliacoes";
-import NossosClientes from "./components/NossosClientes";
-import Carousel from "./components/infinite_carrousel/carousel";
-
+import Carousel from "./components/infinite_carrousel/Carousel";
 
 export default function App() {
   return (
