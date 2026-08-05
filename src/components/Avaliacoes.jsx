@@ -17,20 +17,23 @@ function Stars({ rating }) {
   return <span className="text-yellow-400">{full}{empty}</span>;
 }
 
-function ReviewCard({ review }) {
+function ReviewCard({ review, cardHeight, setCardRef }) {
   const text = truncate(review.text || "", 150);
 
   return (
-    <div className="flex-shrink-0">
-      <div className="bg-white rounded-xl p-6 shadow-lg shrink-0 w-72 sm:w-80 h-[260px]   transition-transform duration-300 ease-out
-             hover:scale-[1.02] hover:shadow-xl">
+    <div
+      ref={setCardRef}
+      className="shrink-0 h-full"
+      style={{ minHeight: cardHeight ? `${cardHeight}px` : "auto" }}
+    >
+      <div className="flex h-full min-h-[280px] w-72 flex-col rounded-xl bg-white p-6 shadow-lg transition-transform duration-300 ease-out hover:scale-[1.02] hover:shadow-xl sm:w-80">
 
         <div className="flex items-center mb-4">
-          <div className="w-12 h-12 rounded-full overflow-hidden mr-4 shrink-0">
+          <div className="m-4 w-12 h-12 rounded-full overflow-hidden mr-4 shrink-0" style={{ margin: "10px" }}>
             <img
               src={review.profile_photo_url}
               alt={review.author_name}
-              className="w-full h-full object-cover"
+              className="m-4 w-full h-full object-cover"
               loading="lazy"
             />
           </div>
@@ -44,7 +47,7 @@ function ReviewCard({ review }) {
           <Stars rating={review.rating} />
         </div>
 
-        <p className="text-gray-600 line-clamp-3">"{text}"</p>
+        <p className="flex-1 text-gray-600 leading-relaxed line-clamp-3">"{text}"</p>
       </div>
     </div>
   );
@@ -63,6 +66,13 @@ export default function Avaliacoes() {
   const [showPrev, setShowPrev] = useState(false);
   const [showNext, setShowNext] = useState(false);
 
+  const [cardHeight, setCardHeight] = useState(0);
+  const cardRefs = useRef([]);
+
+  const setCardRef = (index) => (el) => {
+    cardRefs.current[index] = el;
+  };
+
   // Carrega avaliações
   useEffect(() => {
     let isMounted = true;
@@ -72,7 +82,7 @@ export default function Avaliacoes() {
         setError(false);
 
         const res = await fetch("data/avaliacoes.json");
-        console.log(`Aqui está o JSON -----> ${JSON.stringify(res)}`)
+        // console.log(`Aqui está o JSON -----> ${JSON.stringify(res)}`)
         if (!res.ok) throw new Error("Falha no fetch do JSON");
 
         const data = await res.json();
@@ -87,7 +97,7 @@ export default function Avaliacoes() {
           setCurrentIndex(0);
         }
       } catch (e) {
-        console.error("Erro ao carregar as avaliações:", e);
+        // console.error("Erro ao carregar as avaliações:", e);
         if (isMounted) setError(true);
       }
     }
@@ -247,8 +257,18 @@ export default function Avaliacoes() {
     [currentIndex, reviews.length, showNext]
   );
 
+  useEffect(() => {
+    const heights = cardRefs.current
+      .filter(Boolean)
+      .map((el) => el.getBoundingClientRect().height);
+
+    if (heights.length) {
+      setCardHeight(Math.max(...heights));
+    }
+  }, [reviews]);
+
   return (
-    <section id="depoimentos" className="w-full">
+    <section id="depoimentos" className="py-24 w-full">
       <div className="container mx-auto px-4">
         <h2 className="mb-6 text-center text-3xl font-bold text-gray-800 sm:text-4xl">
           Avaliações de quem já alugou conosco
@@ -275,11 +295,16 @@ export default function Avaliacoes() {
               <div
                 id="cards-depoimento"
                 ref={trackRef}
-                className="flex gap-4 py-4 px-2"
+                className="flex justify-between gap-6 px-4 py-6 sm:gap-8 sm:px-8"
                 style={{ transform: "translateX(0px)" }}
               >
                 {reviews.map((r, idx) => (
-                  <ReviewCard key={`${r.author_name}-${idx}`} review={r} />
+                  <ReviewCard
+                    key={`${r.author_name}-${idx}`}
+                    review={r}
+                    cardHeight={cardHeight}
+                    setCardRef={setCardRef(idx)}
+                  />
                 ))}
               </div>
             </div>
