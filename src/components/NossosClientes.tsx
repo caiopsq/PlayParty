@@ -8,7 +8,7 @@ type Cliente = {
 const clientes: Cliente[] = [
   {
     nome: "Qualifoco",
-    logo: "/img/clientes/logoqualifoco.png"
+    logo: "/img/clientes/logoqualifoco.svg"
   },
   {
     nome: "FGV",
@@ -20,7 +20,7 @@ const clientes: Cliente[] = [
   },
   {
     nome: "World Gym",
-    logo: "/img/clientes/worldgym.png"
+    logo: "/img/clientes/worldgym.svg"
   },
   {
     nome: "VIAÇÃO PIRACICABANA",
@@ -28,7 +28,7 @@ const clientes: Cliente[] = [
   },
   {
     nome: "AGEPOL",
-    logo: "/img/clientes/agepol_logo.png"
+    logo: "/img/clientes/agepol_logo.svg"
   },
   {
     nome: "ASSEFAZ",
@@ -48,7 +48,7 @@ const clientes: Cliente[] = [
   },
   {
     nome: "Capital Moto Week",
-    logo: "/img/clientes/cmw_logo.avif",
+    logo: "/img/clientes/cmw_logo.svg",
   },
   {
     nome: "Senac",
