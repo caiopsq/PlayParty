@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
-import { Menu, X } from "lucide-react";
+import { LuMenu, LuX } from "react-icons/lu";
 import { useState } from "react";
 import callWpp from "../functions/WppCall";
 
@@ -55,7 +55,7 @@ export function Header() {
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                         aria-label="Toggle menu"
                     >
-                        {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+                        {isMenuOpen ? <LuX className="h-6 w-6" /> : <LuMenu className="h-6 w-6" />}
                     </button>
                 </div>
 

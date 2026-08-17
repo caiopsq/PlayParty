@@ -1,4 +1,4 @@
-import * as LucideIcons from 'lucide-react';
+import * as LucideIcons from 'react-icons/lu';
 import diferenciais from '../data/diferenciais.json';
 
 

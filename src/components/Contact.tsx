@@ -4,24 +4,24 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Label } from "./ui/label";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { LuMail, LuPhone, LuMapPin } from "react-icons/lu";
 
 export function Contact() {
   const contactInfo = [
     {
-      icon: Mail,
+      icon: LuMail,
       title: "Email",
       value: "playpartylocacoesdf@gmail.com",
       description: "Nos envie um email a qualquer momento"
     },
     {
-      icon: Phone,
+      icon: LuPhone,
       title: "Telefone",
       value: "+55 (61) 99214-9916",
       description: "Seg-Sab de 8:00 às 18:00"
     },
     {
-      icon: MapPin,
+      icon: LuMapPin,
       title: "Localização",
       value: "Asa Norte",
       description: "Brasília, DF, Brasil"

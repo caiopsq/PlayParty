@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Instagram, Mail } from "lucide-react";
+import { LuInstagram, LuMail } from "react-icons/lu";
 import React from "react";
 
 export function Footer() {
@@ -55,8 +55,8 @@ export function Footer() {
   ];
 
   const socialLinks = [
-    { icon: Instagram, href: "https://www.instagram.com/playpartylocacoes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", label: "Instagram" },
-    { icon: Mail, href: "mailto:playpartylocacoesdf@gmail.com", label: "Email" },
+    { icon: LuInstagram, href: "https://www.instagram.com/playpartylocacoes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", label: "Instagram" },
+    { icon: LuMail, href: "mailto:playpartylocacoesdf@gmail.com", label: "Email" },
   ];
 
   return (

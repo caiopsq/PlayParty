@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { ArrowRight } from "lucide-react";
+import { LuArrowRight } from "react-icons/lu";
 import { useNavigate } from "react-router-dom";
 
 interface ProductCardProps {
@@ -66,7 +66,7 @@ export function ProductCard({ id, name, description, image, category, features, 
       <CardFooter>
         <Button onClick={() => onSeeDetailsClick(id)} className="w-full group">
           Saiba Mais
-          <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+          <LuArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
         </Button>
       </CardFooter>
     </Card>

@@ -1,20 +1,20 @@
-import { Shield, Users, Zap } from "lucide-react";
+import { LuShield, LuUsers, LuZap } from "react-icons/lu";
 import React from "react";
 
 export function About() {
   const features = [
     {
-      icon: Zap,
+      icon: LuZap,
       title: "Serviço Rápido",
       description: "Focamos em entregar um serviço de qualidade no menor tempo possível.",
     },
     {
-      icon: Users,
+      icon: LuUsers,
       title: "Foco no Cliente",
       description: "Todos os nossos serviços são focados na satisfação dos clientes.",
     },
     {
-      icon: Shield,
+      icon: LuShield,
       title: "Segurança e Qualidade",
       description: "Nossos serviços são prestados com qualidade e a realização do transporte dos itens é feita com a maior seguraça possível.",
     },

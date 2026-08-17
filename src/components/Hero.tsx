@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { ArrowRight } from "lucide-react";
+import { LuArrowRight } from "react-icons/lu";
 // import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import DestaqueCarousel from "./Carousel";
 
@@ -25,7 +25,7 @@ export function Hero() {
               <a href="/#products">
                 <Button size="lg" className="group">
                   Nossos Produtos
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  <LuArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
               <a href="/#about">
