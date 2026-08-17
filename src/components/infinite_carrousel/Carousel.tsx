@@ -11,8 +11,8 @@ export default function Carousel() {
                 </h2>
                 <section className="flex h-screen justify-center items-center w-[300]" style={{ 'background': 'linear-gradient( 180deg, #FCFCFC 0%, #F6F8FA 100% );' }}>
                     <div className="h-100 max-h-lvh w-full  rouded-2xl py-16 overflow-hidden grid">
-                        <Marquee gradient pauseOnClick="true" className="rounded-2xl  py-3 overflow-hidden grid  ">
-                            <div className=" flex-col justify-center items-center h-[350px] mx-5 ">
+                        <Marquee gradient pauseOnClick={true} className="rounded-2xl  py-3 overflow-hidden grid  ">
+                            <div className=" flex-col justify-center items-center h-87.5 mx-5 ">
                                 <img src="/img/clientes/logoqualifoco.svg" className="grayscale" style={{ height: '100px', padding: '0 50px' }} alt="qualifoco" />
                             </div>
 
@@ -67,7 +67,7 @@ export default function Carousel() {
                 </section>
                 <section className="flex h-screen justify-center items-center w-[300]" style={{ 'background': 'linear-gradient( 180deg, #FCFCFC 0%, #F6F8FA 100% );' }}>
                     <div className="h-100 max-h-lvh w-full  rouded-2xl py-16 overflow-hidden grid">
-                        <Marquee gradient pauseOnClick="true" direction="right"  className="rounded-2xl  py-3 overflow-hidden grid  ">
+                        <Marquee gradient pauseOnClick={true} direction="right"  className="rounded-2xl  py-3 overflow-hidden grid  ">
                             
                             <div className=" flex pr-10 flex-col justify-center items-center h-[350px] mx-5 ">
                                 <img src="/img/clientes/logo_senac.svg" className="w-40 " style={{ height: '100px', padding: '0 50px' }} alt="Senac" />
