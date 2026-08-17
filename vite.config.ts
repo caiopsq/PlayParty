@@ -59,5 +59,5 @@ export default defineConfig({
     port: 3000,
     open: true,
   },
-  base: 'playpartylocacoes.com.br/'
+  base: '/',
 });
